@@ -11,7 +11,7 @@ export const Navbar = () => {
   const currentRoute = usePathname();
 
   return (
-    <div className="fixed h-fit md:min-h-screen w-full md:w-fit flex md:flex-col bg-transparent justify-center">
+    <div className="fixed h-fit md:min-h-screen w-full md:w-fit flex md:flex-col bg-transparent dark:bg-maBlack justify-center">
       <div className='h-fit w-full md:w-[100px] py-5 md:py-8 px-8 md:ps-8 md:pe-3 flex md:flex-col justify-between md:gap-8 bg-maBlack dark:bg-white md:rounded-tr-3xl rounded-bl-3xl md:rounded-bl-none rounded-br-3xl'>
         <Link href="/">
           {/* <Image src={LogoDark} alt='Logo' className='w-12 md:w-14 h-12 md:h-14' /> */}

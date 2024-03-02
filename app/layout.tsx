@@ -37,7 +37,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={poppins.className}>
+      <body className={`${poppins.className} bg-white dark:bg-maBlack`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
