@@ -15,7 +15,7 @@ export default function page() {
     <main className="md:ms-[120px] w-full min-h-screen flex flex-col gap-20 bg-white dark:bg-maBlack pt-40 md:pt-32">
       <div className="flex flex-col gap-3 items-center justify-center">
         <h1 className="text-center font-bold text-5xl text-maBlack dark:text-white">Find a project that interests you!</h1>
-        <p className='text-maDarkGray dark:text-maGray'>I have completed 193 projects which you can see with the project details</p>
+        <p className='text-maDarkGray dark:text-maGray text-center px-5'>I have completed 193 projects which you can see with the project details</p>
       </div>
       <div className="flex gap-5 px-8">
         <Link href='/portofolios/Bragada.ui'>

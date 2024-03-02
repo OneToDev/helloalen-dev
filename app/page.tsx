@@ -6,7 +6,7 @@ export default function Home() {
       <div className="flex flex-col gap-3 items-center justify-center">
         <p>Hello 👋🏻, I’am Naufal Abdussyakur. I’m a</p>
         <h1 className="text-center font-bold text-5xl">Fullstack Developer<br />Based in Indonesia</h1>
-        <p>Enjoy the journey in realizing your desired dreams</p>
+        <p className="text-center px-5">Enjoy the journey in realizing your desired dreams</p>
       </div>
       <div className="flex gap-3">
         <Link href='/portofolios'>

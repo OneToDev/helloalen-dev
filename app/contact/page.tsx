@@ -8,8 +8,8 @@ export default function page() {
       <div className="flex flex-col gap-3 items-center justify-center max-w-xl">
         <p>Hello 👋🏻, Lorem ipsum dolor sit amet consectetur.</p>
         <h1 className="text-center font-bold text-5xl">Get In Touch!</h1>
-        <p className='text-center'>Lorem ipsum dolor sit amet consectetur. Sagittis facilisi urna ultrices risus.Ultrices nisl enim amet ornare eu a felis accumsan. Nisi natoque est lorem eget facilisis.</p>
-        <p>Let&apos;s connect with me on below 👇🏻</p>
+        <p className='text-center px-5'>Lorem ipsum dolor sit amet consectetur. Sagittis facilisi urna ultrices risus.Ultrices nisl enim amet ornare eu a felis accumsan. Nisi natoque est lorem eget facilisis.</p>
+        <p className='text-center px-5'>Let&apos;s connect with me on below 👇🏻</p>
       </div>
       <div className="flex gap-8">
         <Link href='https://instagram.com/amoebajelek_' target='_blank'>
