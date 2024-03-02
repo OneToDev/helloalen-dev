@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
-import ThumbnailBragadaUILight from '@/public/Thumbnail-Bragada.ui.jpg'
-import ThumbnailBragadaUIDark from '@/public/Thumbnail-Bragada.ui-Light.jpg'
+import ThumbnailBlack from '@/public/Thumbnail-Bragada.ui.jpg'
+import ThumbnailWhite from '@/public/Thumbnail-Bragada.ui-Light.jpg'
 
 export default function Page({ params }: { params: { slug: string } }) {
   return (
@@ -12,8 +12,8 @@ export default function Page({ params }: { params: { slug: string } }) {
         ' target="_blank">Helloalen.dev</Link></p>
       </div>
       <div className="flex flex-col items-center gap-3 px-8">
-        <Image src={ThumbnailBragadaUILight} alt="Thumbnail" className="block dark:hidden w-[800px] rounded-3xl" />
-        <Image src={ThumbnailBragadaUIDark} alt="Thumbnail" className="hidden dark:block w-[800px] rounded-3xl" />
+        <Image src={ThumbnailBlack} alt="Thumbnail" className="dark:hidden w-[800px] rounded-3xl" />
+        <Image src={ThumbnailWhite} alt="Thumbnail" className="hidden dark:block w-[800px] rounded-3xl" />
         <p>Download Project : <Link href='https://drive.google.com/drive/folders/1LRXIq62a2SNkwjLtT86ynGhI_I8JyckE?usp=sharing' className="italic font-semibold text-maOrange" target='_blank'>Download</Link></p>
         <p>Prototype : <Link href='https://www.figma.com/proto/NRQtkOFaQQHqoX05hmpRe0/Bragada.ui?page-id=7%3A4&type=design&node-id=7-5&viewport=190%2C395%2C0.19&t=IgnNYNhqWDfgIxzM-1&scaling=scale-down&starting-point-node-id=7%3A5&mode=design' className="italic font-semibold text-maOrange" target='_blank'>Preview</Link></p>
       </div>
