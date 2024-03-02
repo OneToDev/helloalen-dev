@@ -23,9 +23,9 @@ export default function page() {
             <figure>
               <Image src={Thumbnail} alt='Thumbnail' />
             </figure>
-            <div className="card-body bg-maBlack rounded-2xl">
+            <div className="card-body p-3">
               <h2 className="card-title text-3xl font-bold text-maOrange">Bragada.ui</h2>
-              <p className='text-white'>Designed by <span className='italic font-medium'>Helloalen.dev</span></p>
+              <p>Designed by <span className='italic font-medium'>Helloalen.dev</span></p>
             </div>
           </div>
         </Link>
