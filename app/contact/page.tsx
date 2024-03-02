@@ -5,11 +5,11 @@ import React from 'react'
 export default function page() {
   return (
     <main className="w-full min-h-screen flex flex-col gap-8 items-center justify-center bg-white dark:bg-[#252525]">
-      <div className="flex flex-col gap-3 items-center justify-center max-w-xl">
+      <div className="flex flex-col gap-3 items-center justify-center max-w-xl text-center px-5">
         <p>Hello 👋🏻, Lorem ipsum dolor sit amet consectetur.</p>
-        <h1 className="text-center font-bold text-5xl">Get In Touch!</h1>
-        <p className='text-center px-5'>Lorem ipsum dolor sit amet consectetur. Sagittis facilisi urna ultrices risus.Ultrices nisl enim amet ornare eu a felis accumsan. Nisi natoque est lorem eget facilisis.</p>
-        <p className='text-center px-5'>Let&apos;s connect with me on below 👇🏻</p>
+        <h1 className="font-bold text-5xl">Get In Touch!</h1>
+        <p>Lorem ipsum dolor sit amet consectetur. Sagittis facilisi urna ultrices risus.Ultrices nisl enim amet ornare eu a felis accumsan. Nisi natoque est lorem eget facilisis.</p>
+        <p>Let&apos;s connect with me on below 👇🏻</p>
       </div>
       <div className="flex gap-8">
         <Link href='https://instagram.com/amoebajelek_' target='_blank'>
