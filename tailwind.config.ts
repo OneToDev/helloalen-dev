@@ -19,6 +19,10 @@ const config = {
     },
     extend: {
       colors: {
+        maOrange: "#FE6D3E",
+        maGray: "#DCDCDC",
+        maDarkGray: "#5F5F5F",
+        maBlack: "#252525",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
