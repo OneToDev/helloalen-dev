@@ -25,7 +25,7 @@ export default function page() {
         <p className='text-center'>Lorem ipsum dolor sit amet consectetur. Sagittis facilisi urna ultrices risus.Ultrices nisl enim amet ornare eu a felis accumsan. Nisi natoque est lorem eget facilisis.</p>
         <p>Let's connect with me on below 👇🏻</p>
       </div>
-      <div className="flex gap-8">
+      {/* <div className="flex gap-8">
         <Link href='https://instagram.com/amoebajelek_' target='_blank'>
         <div className="px-3 py-3 bg-white dark:bg-maDarkGray hover:bg-maBlack dark:hover:bg-maOrange text-maDarkGray dark:text-white hover:text-maOrange rounded-md border border-solid border-maGray dark:border-none shadow-sm">
             <Share2 className='md:w-8 h-6 md:h-8' />
@@ -41,7 +41,7 @@ export default function page() {
             <Share2 className='md:w-8 h-6 md:h-8' />
           </div>
         </Link>
-      </div>
+      </div> */}
     </main>
   )
 }
