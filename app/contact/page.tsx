@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import { Metadata } from "next";
 import Link from 'next/link';
-import { Github, Instagram, Linkedin, } from 'lucide-react';
+import { Linkedin, Share2, } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: "Get In Touch! | Lorem ipsum dolor sit amet consectetur.",
@@ -36,7 +36,7 @@ export default function page() {
       <div className="flex gap-8">
         <Link href='https://instagram.com/amoebajelek_' target='_blank'>
         <div className="px-3 py-3 bg-white dark:bg-maDarkGray hover:bg-maBlack dark:hover:bg-maOrange text-maDarkGray dark:text-white hover:text-maOrange rounded-md border border-solid border-maGray dark:border-none shadow-sm">
-            <Instagram className='md:w-8 h-6 md:h-8' />
+            <Share2 className='md:w-8 h-6 md:h-8' />
           </div>
         </Link>
         <Link href='https://linkedin.com/in/naufalabdussyakur' target='_blank'>
@@ -46,7 +46,7 @@ export default function page() {
         </Link>
         <Link href='https://github.com/amoebajelek' target='_blank'>
           <div className="px-3 py-3 bg-white dark:bg-maDarkGray hover:bg-maBlack dark:hover:bg-maOrange text-maDarkGray dark:text-white hover:text-maOrange rounded-md border border-solid border-maGray dark:border-none shadow-sm">
-            <Github className='md:w-8 h-6 md:h-8' />
+            <Share2 className='md:w-8 h-6 md:h-8' />
           </div>
         </Link>
       </div>
