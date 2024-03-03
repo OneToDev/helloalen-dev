@@ -25,7 +25,7 @@ export default function page() {
             </figure>
             <div className="card-body p-3">
               <h2 className="card-title text-3xl font-bold text-maOrange">Bragada.ui</h2>
-              <p>Designed by <span className='italic font-medium'>Helloalen.dev</span></p>
+              <p className='text-maDarkGray'>Designed by <span className='italic font-medium text-maBlack'>Helloalen.dev</span></p>
             </div>
           </div>
         </Link>
