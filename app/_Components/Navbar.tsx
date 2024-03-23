@@ -31,13 +31,13 @@ export const Navbar = () => {
         </Link>
         <div className='flex md:flex-col gap-8 items-center md:items-start'>
           <Link href="/" className='flex flex-col justify-center'>
-            <DoorOpen className={currentRoute == '/' ? 'text-maOrange w-6 h-6 transition-all' : 'text-maGray w-6 h-6 transition-all'} />
+            <DoorOpen className={currentRoute == '/' ? 'text-maOrange w-6 h-6 transition-all' : 'text-maDarkGray w-6 h-6 transition-all'} />
           </Link>
           <Link href="/portofolios" className='flex flex-col justify-center'>
-            <GalleryHorizontalEnd className={currentRoute == '/portofolios' ? 'text-maOrange w-6 h-6 transition-all' : 'text-maGray w-6 h-6 transition-all'} />
+            <GalleryHorizontalEnd className={currentRoute == '/portofolios' ? 'text-maOrange w-6 h-6 transition-all' : 'text-maDarkGray w-6 h-6 transition-all'} />
           </Link>
           <Link href="/contact" className='flex flex-col justify-center'>
-            <Share2 className={currentRoute == '/contact' ? 'text-maOrange w-6 h-6 transition-all' : 'text-maGray w-6 h-6 transition-all'} />
+            <Share2 className={currentRoute == '/contact' ? 'text-maOrange w-6 h-6 transition-all' : 'text-maDarkGray w-6 h-6 transition-all'} />
           </Link>
           <ModeToggle />
         </div>
