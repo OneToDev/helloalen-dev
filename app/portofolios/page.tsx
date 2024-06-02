@@ -27,7 +27,7 @@ export default function page() {
       </div>
       <div className="grid md:grid-cols-3 px-12 md:px-24 gap-5">
         <Link href="/portofolios/cms-product-catalog">
-          <div className="card card-compact w-full bg-white dark:bg-maDarkGray shadow-sm hover:scale-105 transition-all duration-300 hover:shadow-md rounded-sm overflow-hidden hover:border hover:border-maOrange">
+          <div className="card card-compact w-full bg-white dark:bg-maOrange shadow-sm hover:scale-105 transition-all duration-300 hover:shadow-md rounded-sm overflow-hidden hover:border hover:border-maOrange">
             <figure>
               <Image src={ThumbnailCmsProductCatalog} alt="Thumbnail" />
             </figure>
@@ -42,7 +42,7 @@ export default function page() {
           </div>
         </Link>
         <Link href="/portofolios/bale-seni-barli">
-          <div className="card card-compact w-full bg-white dark:bg-maDarkGray shadow-sm hover:scale-105 transition-all duration-300 hover:shadow-md rounded-sm overflow-hidden hover:border hover:border-maOrange">
+          <div className="card card-compact w-full bg-white dark:bg-maOrange shadow-sm hover:scale-105 transition-all duration-300 hover:shadow-md rounded-sm overflow-hidden hover:border hover:border-maOrange">
             <figure>
               <Image src={ThumbnailBaleSeniBarli} alt="Thumbnail" />
             </figure>
@@ -57,7 +57,7 @@ export default function page() {
           </div>
         </Link>
         <Link href="/portofolios/the-biggest-sundial">
-          <div className="card card-compact w-full bg-white dark:bg-maDarkGray shadow-sm hover:scale-105 transition-all duration-300 hover:shadow-md rounded-sm overflow-hidden hover:border hover:border-maOrange">
+          <div className="card card-compact w-full bg-white dark:bg-maOrange shadow-sm hover:scale-105 transition-all duration-300 hover:shadow-md rounded-sm overflow-hidden hover:border hover:border-maOrange">
             <figure>
               <Image src={ThumbnailTheBiggestSundial} alt="Thumbnail" />
             </figure>
@@ -72,7 +72,7 @@ export default function page() {
           </div>
         </Link>
         <Link href="/portofolios/amal-academy-mobile-version">
-          <div className="card card-compact w-full bg-white dark:bg-maDarkGray shadow-sm hover:scale-105 transition-all duration-300 hover:shadow-md rounded-sm overflow-hidden hover:border hover:border-maOrange">
+          <div className="card card-compact w-full bg-white dark:bg-maOrange shadow-sm hover:scale-105 transition-all duration-300 hover:shadow-md rounded-sm overflow-hidden hover:border hover:border-maOrange">
             <figure>
               <Image src={ThumbnailAmalAcademy} alt="Thumbnail" />
             </figure>
@@ -87,7 +87,7 @@ export default function page() {
           </div>
         </Link>
         <Link href="/portofolios/scoutours">
-          <div className="card card-compact w-full bg-white dark:bg-maDarkGray shadow-sm hover:scale-105 transition-all duration-300 hover:shadow-md rounded-sm overflow-hidden hover:border hover:border-maOrange">
+          <div className="card card-compact w-full bg-white dark:bg-maOrange shadow-sm hover:scale-105 transition-all duration-300 hover:shadow-md rounded-sm overflow-hidden hover:border hover:border-maOrange">
             <figure>
               <Image src={ThumbnailScoutours} alt="Thumbnail" />
             </figure>
