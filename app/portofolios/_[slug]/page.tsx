@@ -5,7 +5,7 @@ import ThumbnailWhite from '@/public/Thumbnail-Bragada.ui-Light.jpg'
 
 export default function Page({ params }: { params: { slug: string } }) {
   return (
-    <main className="md:ms-[120px] md:me-[20px] w-full min-h-screen flex flex-col gap-8 md:gap-14 bg-white dark:bg-maBlack py-40 md:pt-32">
+    <main className="md:ms-[120px] md:me-[20px] w-full min-h-screen flex flex-col gap-8 md:gap-14 bg-[#fafafa] dark:bg-maBlack py-40 md:pt-32">
       <div className="flex flex-col gap-3 items-center justify-center">
         <h1 className="text-center font-bold text-5xl text-maBlack dark:text-white">{params.slug}</h1>
         <p className='text-maDarkGray dark:text-maGray'>Designed by <Link href='https://instagram.com/helloalen.dev' className='italic font-medium text-maOrange

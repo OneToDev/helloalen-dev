@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Poppins } from "next/font/google";
+import { Poppins, Roboto } from "next/font/google";
 import { Navbar } from "./_Components/Navbar";
 
 import { Analytics } from "@vercel/analytics/react"
 import { ThemeProvider } from "@/components/ui/providers/theme-provider";
 
-const poppins = Poppins({
+const poppins = Roboto({
   subsets: ['latin'],
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900']
+  weight: ['100', '300', '400', '500', '700', '900']
 });
 
 export const metadata: Metadata = {
@@ -37,7 +37,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${poppins.className} bg-white dark:bg-maBlack`}>
+      <body className={`${poppins.className} bg-[#fafafa] dark:bg-maBlack`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
