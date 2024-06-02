@@ -30,88 +30,70 @@ export default function page() {
           </Link>
         </p>
       </div>
+
+      {/* Content */}
       <div className="w-full flex flex-col items-center gap-8">
         <Image
           src={ThumbnailAmalAcademy}
           alt="Thumbnail"
           className="w-[800px] rounded-md"
         />
+        <div className="w-10/12 md:w-1/2 flex flex-col gap-5">
 
-        {/* <div className="w-1/2 flex flex-col gap-5">
+          {/* Overview */}
           <div className="flex flex-col gap-2">
             <h3 className="text-lg font-semibold">Overview</h3>
-            <p>
-              <a
-                href="https://www.telkom.co.id/sites"
-                className="text-maOrange"
-                target="_blank"
-              >
-                PT Telkom Indonesia
-              </a>{" "}
-              memiliki sebuah website catalog sendiri{" "}
-              <a
-                href="https://productcatalog.telkom.co.id/"
-                className="text-maOrange"
-                target="_blank"
-              >
-                disini
-              </a>{" "}
-              yang bertujuan sebagai pusat informasi mengenai produk yang
-              dimiliki oleh perusahaan yang diperuntukkan bagi salesnya.
-            </p>
+            <p>...</p>
           </div>
 
+          {/* Problems */}
           <div className="flex flex-col gap-2">
             <h3 className="text-lg font-semibold">Problems</h3>
-            <p>
-              Secara fungsional sebagian besar sudah bekerja dengan baik. Namun
-              yang menjadi permasalahann adalah desain yang digunakan belum
-              update. Desain masih menggunakan desain lama dan belum menerapkan
-              prinsip UI/UX.{" "}
-              <a
-                href="https://www.telkom.co.id/sites"
-                className="text-maOrange"
-                target="_blank"
-              >
-                PT Telkom Indonesia
-              </a>{" "}
-              menginginkan untuk re-desain website yang ada dengan penerapan
-              UI/UX dengan beberapa referensi yang mereka inginkan.
-            </p>
+            <p>...</p>
           </div>
 
+          {/* User Needs */}
           <div className="flex flex-col gap-2">
             <h3 className="text-lg font-semibold">User Needs</h3>
-            <p>
-              Ada beberapa website yang bisa dijadikan referensi untuk redesign
-              :
-            </p>
-            <ol className="list-decimal ps-6">
-              <li>
-                <a
-                  href="https://ioh.co.id/portal/id/iohindex"
-                  className="text-maOrange"
-                >
-                  Indosat Oredoo Hutchison
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.modena.com/id_id"
-                  className="text-maOrange"
-                >
-                  Modena
-                </a>
-              </li>
-              <li>
-                <a href="https://www.huawei.com/en/" className="text-maOrange">
-                  Huawei
-                </a>
-              </li>
-            </ol>
+            <p>...</p>
           </div>
-        </div> */}
+
+          {/* Ideation */}
+          <div className="flex flex-col gap-2">
+            <h3 className="text-lg font-semibold">Ideation</h3>
+            <p>...</p>
+          </div>
+
+          {/* User-flow design */}
+          <div className="flex flex-col gap-2">
+            <h3 className="text-lg font-semibold">User-flow design</h3>
+            <p>...</p>
+            {/* <Image src={} alt="user-flow" /> */}
+          </div>
+
+          {/* Wireframe */}
+          <div className="flex flex-col gap-2">
+            <h3 className="text-lg font-semibold">Wireframe</h3>
+            <p>...</p>
+            {/* <Image src={} alt="user-flow" /> */}
+          </div>
+
+          {/* Prototype */}
+          <div className="flex flex-col gap-2">
+            <h3 className="text-lg font-semibold">Prototype</h3>
+            <p>...</p>
+            {/* <Image src={} alt="user-flow" /> */}
+          </div>
+
+          {/* High Fidelity */}
+          <div className="flex flex-col gap-2">
+            <h3 className="text-lg font-semibold">High Fidelity</h3>
+            <p>...</p>
+            {/* <Image src={} alt="user-flow" /> */}
+          </div>
+        </div>
       </div>
+      
     </main>
   );
 }

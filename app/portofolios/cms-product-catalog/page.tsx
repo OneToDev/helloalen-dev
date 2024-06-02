@@ -8,6 +8,7 @@ import { LuMoveLeft } from "react-icons/lu";
 export default function page() {
   return (
     <main className="md:ms-[120px] md:me-[20px] w-full min-h-screen flex flex-col gap-8 md:gap-10 bg-[#fafafa] dark:bg-maBlack py-12">
+      {/* Header */}
       <div className="flex flex-col gap-3 items-center justify-center pt-24 md:pt-0">
         <Link
           href="/portofolios"
@@ -31,6 +32,8 @@ export default function page() {
           </Link>
         </p>
       </div>
+
+      {/* Content */}
       <div className="w-full flex flex-col items-center gap-8">
         <Image
           src={ThumbnailCmsProductCatalog}
@@ -38,6 +41,7 @@ export default function page() {
           className="w-[800px] rounded-md"
         />
         <div className="w-10/12 md:w-1/2 flex flex-col gap-5">
+          {/* Overview */}
           <div className="flex flex-col gap-2">
             <h3 className="text-lg font-semibold">Overview</h3>
             <p>
@@ -61,6 +65,7 @@ export default function page() {
             </p>
           </div>
 
+          {/* Problems */}
           <div className="flex flex-col gap-2">
             <h3 className="text-lg font-semibold">Problems</h3>
             <p>
@@ -80,6 +85,7 @@ export default function page() {
             </p>
           </div>
 
+          {/* User Needs */}
           <div className="flex flex-col gap-2">
             <h3 className="text-lg font-semibold">User Needs</h3>
             <p>
@@ -110,6 +116,85 @@ export default function page() {
               </li>
             </ol>
           </div>
+
+          {/* Ideation */}
+          <div className="flex flex-col gap-2">
+            <h3 className="text-lg font-semibold">Ideation</h3>
+            <p>
+              Pada redesign ini, saya ada beberapa ide yang bisa diterapkan
+              dengan tetap menncapai tujuan dari setiap fiturnya. Berikut
+              beberapa idenya :
+            </p>
+            <ol className="list-decimal ps-6">
+              <li>
+                Style
+                <p>
+                  Dengan refensi dari{" "}
+                  <a href="https://ioh.co.id/portal/id/iohindex">
+                    Indosat Oredoo Hutchison
+                  </a>
+                  , akan ada beberapa penyesuaian agar terjaga konsistensi
+                  karakteristinya. Mulai dari text yang digunakan, color
+                  palette, spacing, border dan shadow.
+                </p>
+              </li>
+              <li>
+                Interaction
+                <p>
+                  Penyesuain dari segi interaksi user dengan website agar
+                  terjalin komunikasi yang baik antara user dengan website.
+                  Mulai dari penempatan overlay, hovering dan animation.
+                </p>
+              </li>
+              <li>
+                Layouting
+                <p>
+                  Menata kembali penempatan content dan fitur agar sesuai dengan
+                  kebutuhan dari perusahaan dan tentunya mempermudah dalam
+                  penggunaannya. Juga untuk meperkuat karakter dari aplikasi
+                  agar experience yang didapatkan oleh user bisa maksimal.
+                </p>
+              </li>
+            </ol>
+          </div>
+
+          {/* User-flow design */}
+          <div className="flex flex-col gap-2">
+            <h3 className="text-lg font-semibold">User-flow design</h3>
+            <p>
+              Berikut gambaran penggunaan aplikasi dengan tujuan yang ingin
+              dicapai,
+            </p>
+            {/* <Image src={} alt="user-flow" /> */}
+          </div>
+
+          {/* Wireframe */}
+          <div className="flex flex-col gap-2">
+            <h3 className="text-lg font-semibold">Wireframe</h3>
+            <p>
+              ...
+            </p>
+            {/* <Image src={} alt="user-flow" /> */}
+          </div>
+
+          {/* Prototype */}
+          <div className="flex flex-col gap-2">
+            <h3 className="text-lg font-semibold">Prototype</h3>
+            <p>
+              ...
+            </p>
+            {/* <Image src={} alt="user-flow" /> */}
+          </div>
+          
+          {/* High Fidelity */}
+          <div className="flex flex-col gap-2">
+            <h3 className="text-lg font-semibold">High Fidelity</h3>
+            <p>
+              ...
+            </p>
+            {/* <Image src={} alt="user-flow" /> */}
+          </div>
+
         </div>
       </div>
     </main>
