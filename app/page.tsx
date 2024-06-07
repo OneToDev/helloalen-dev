@@ -19,12 +19,12 @@ export default function Home() {
       </div>
       <div className="flex gap-3">
         <Link href="/portofolios">
-          <p className="px-5 py-3 rounded-full bg-maOrange">
+          <p className="px-5 py-3 rounded-full bg-maOrange text-white">
             Check My <span className="font-semibold">Projects</span> 🚀
           </p>
         </Link>
         <Link href="/contact">
-          <p className="px-5 py-3 rounded-full bg-white text-maBlack">
+          <p className="px-5 py-3 rounded-full bg-white text-maBlack border border-solid border-maGray dark:border-none">
             <span className="font-semibold">Contact</span> Me
           </p>
         </Link>
