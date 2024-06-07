@@ -35,7 +35,7 @@ export default function page() {
               <h2 className="card-title text-2xl font-bold text-maBlack dark:text-white">
                 CMS Product Catalog
               </h2>
-              <p className="text-maDarkGray dark:text-maGray text-base">
+              <p className="text-maDarkGray dark:text-white text-base">
                 Designed by Naufal Abdussyakur
               </p>
             </div>
@@ -50,7 +50,7 @@ export default function page() {
               <h2 className="card-title text-2xl font-bold text-maBlack dark:text-white">
                 Bale Seni Barli
               </h2>
-              <p className="text-maDarkGray dark:text-maGray text-base">
+              <p className="text-maDarkGray dark:text-white text-base">
                 Designed by Naufal Abdussyakur
               </p>
             </div>
@@ -65,7 +65,7 @@ export default function page() {
               <h2 className="card-title text-2xl font-bold text-maBlack dark:text-white">
                 The Biggest Sundial
               </h2>
-              <p className="text-maDarkGray dark:text-maGray text-base">
+              <p className="text-maDarkGray dark:text-white text-base">
                 Designed by Naufal Abdussyakur
               </p>
             </div>
@@ -80,7 +80,7 @@ export default function page() {
               <h2 className="card-title text-2xl font-bold text-maBlack dark:text-white">
                 Amal Academy (Mobile Version)
               </h2>
-              <p className="text-maDarkGray dark:text-maGray text-base">
+              <p className="text-maDarkGray dark:text-white text-base">
                 Designed by Naufal Abdussyakur
               </p>
             </div>
@@ -95,7 +95,7 @@ export default function page() {
               <h2 className="card-title text-2xl font-bold text-maBlack dark:text-white">
                 Scoutours
               </h2>
-              <p className="text-maDarkGray dark:text-maGray text-base">
+              <p className="text-maDarkGray dark:text-white text-base">
                 Designed by Naufal Abdussyakur
               </p>
             </div>
