@@ -9,7 +9,7 @@ export default function Home() {
           I&apos;m a
         </p>
         <h1 className="text-center font-bold text-5xl">
-          UI/UX Designer
+          Product Designer
           <br />
           Based in Indonesia
         </h1>
