@@ -38,9 +38,9 @@ export default function page() {
         <Image
           src={ThumbnailCmsProductCatalog}
           alt="Thumbnail"
-          className="w-[800px] rounded-md"
+          className="w-[800px] rounded-lg shadow-md"
         />
-        <div className="w-10/12 md:w-1/2 flex flex-col gap-5">
+        <div className="w-full px-4 md:w-1/2 md:px-0 flex flex-col gap-5">
           {/* Overview */}
           <div className="flex flex-col gap-2">
             <h3 className="text-lg font-semibold">Overview</h3>

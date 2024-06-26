@@ -25,7 +25,7 @@ export default function page() {
           I have completed 5 projects which you can see with the project details
         </p>
       </div>
-      <div className="grid md:grid-cols-3 px-12 md:px-24 gap-5">
+      <div className="grid md:grid-cols-3 px-4 md:px-24 gap-5">
         <Link href="/portofolios/cms-product-catalog">
           <div className="card card-compact w-full bg-white dark:bg-maOrange shadow-sm hover:scale-105 transition-all duration-300 hover:shadow-md rounded-sm overflow-hidden hover:border hover:border-maOrange">
             <figure>
