@@ -3,12 +3,12 @@ import "./globals.css";
 import { Poppins, Roboto } from "next/font/google";
 import { Navbar } from "./_Components/Navbar";
 
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react";
 import { ThemeProvider } from "@/components/ui/providers/theme-provider";
 
 const poppins = Roboto({
-  subsets: ['latin'],
-  weight: ['100', '300', '400', '500', '700', '900']
+  subsets: ["latin"],
+  weight: ["100", "300", "400", "500", "700", "900"],
 });
 
 export const metadata: Metadata = {
@@ -17,17 +17,17 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        media: '(prefers-color-scheme: light)',
-        url: '/Logo.png',
-        href: '/Logo.png',
+        media: "(prefers-color-scheme: light)",
+        url: "/Logo.png",
+        href: "/Logo.png",
       },
       {
-        media: '(prefers-color-scheme: dark)',
-        url: '/Logo-Dark.png',
-        href: '/Logo-Dark.png',
-      }
-    ]
-  }
+        media: "(prefers-color-scheme: dark)",
+        url: "/Logo-Dark.png",
+        href: "/Logo-Dark.png",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
@@ -44,11 +44,15 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <main className="md:flex">
+          <main className="md:flex min-h-screen items-center justify-center">
+            <Analytics />
+            {children}
+          </main>
+          {/* <main className="md:flex">
             <Analytics />
             <Navbar />
             {children}
-          </main>
+          </main> */}
         </ThemeProvider>
       </body>
     </html>
