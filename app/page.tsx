@@ -3,7 +3,10 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div>
-      <p className="text-center">Under maintenance ...</p>
+      <p className="text-center  text-maOrange">Sorry,</p>
+      <h1 className="text-center font-bold text-3xl">
+        Maintenance dulu yaw! 🙏🏻
+      </h1>
     </div>
     // <main className="md:ms-[120px] md:me-[20px] w-full min-h-screen flex flex-col gap-8 items-center justify-center bg-[#fafafa] dark:bg-[#252525] py-12">
     //   <div className="flex flex-col px-5 py-3 gap-3 items-center justify-center">
