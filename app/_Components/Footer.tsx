@@ -10,7 +10,7 @@ import LinkedIn from "@/public/LinkedIn.svg"
 import LinkedInDark from "@/public/LinkedIn-Dark.svg"
 import Telegram from "@/public/Telegram.svg"
 import TelegramDark from "@/public/Telegram-Dark.svg"
-import Github from "@/public/Github.svg"
+import Github from "@/public/GitHub.svg"
 import GithubDark from "@/public/GitHub-Dark.svg"
 
 export const Footer = () => {
