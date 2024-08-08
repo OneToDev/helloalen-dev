@@ -24,11 +24,12 @@ export const Navbar = () => {
         <div className="flex items-stretch">
           <div className="dropdown dropdown-end">
             <div tabIndex={0} role="button" className="text-sm font-base">
-              <Image src={IconMenuDark} alt="Menu" width={24} />
+              <Image src={IconMenuDark} alt="Menu" width={24} className="hidden dark:block" />
+              <Image src={IconMenuLight} alt="Menu" width={24} className="block dark:hidden" />
             </div>
             <ul
               tabIndex={0}
-              className="menu dropdown-content bg-base-100 rounded-box z-[1] mt-4 w-72 p-4 shadow-sm gap-2"
+              className="menu dropdown-content rounded-box z-[1] mt-4 w-72 p-4 bg-slate-100 dark:bg-zinc-900 shadow-sm gap-2"
             >
               <li>
                 <Link href="/about" className="flex flex-col justify-center">
