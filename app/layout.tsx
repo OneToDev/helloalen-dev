@@ -1,14 +1,16 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Poppins, Roboto } from "next/font/google";
+import { Poppins } from "next/font/google";
 import { Navbar } from "./_Components/Navbar";
 
 import { Analytics } from "@vercel/analytics/react";
 import { ThemeProvider } from "@/components/ui/providers/theme-provider";
+import { Footer } from "./_Components/Footer";
 
-const poppins = Roboto({
+const poppins = Poppins({
+  style: ["italic", "normal"],
   subsets: ["latin"],
-  weight: ["100", "300", "400", "500", "700", "900"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
 export const metadata: Metadata = {
@@ -18,13 +20,13 @@ export const metadata: Metadata = {
     icon: [
       {
         media: "(prefers-color-scheme: light)",
-        url: "/Logo.png",
-        href: "/Logo.png",
+        url: "/Logo-Character.png",
+        href: "/Logo-Character.png",
       },
       {
         media: "(prefers-color-scheme: dark)",
-        url: "/Logo-Dark.png",
-        href: "/Logo-Dark.png",
+        url: "/Logo-Character.png",
+        href: "/Logo-Character.png",
       },
     ],
   },
@@ -37,22 +39,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${poppins.className} bg-[#fafafa] dark:bg-maBlack`}>
+      <body className={`${poppins.className} bg-zinc-100 dark:bg-zinc-950`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
         >
-          <main className="md:flex min-h-screen items-center justify-center">
-            <Analytics />
-            {children}
-          </main>
-          {/* <main className="md:flex">
+          <main className="min-h-screen flex flex-col justify-between">
             <Analytics />
             <Navbar />
             {children}
-          </main> */}
+            <Footer />
+          </main>
         </ThemeProvider>
       </body>
     </html>
