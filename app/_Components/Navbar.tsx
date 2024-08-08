@@ -36,7 +36,7 @@ export const Navbar = () => {
                     className={
                       currentRoute == "/about"
                         ? "text-maOrange font-medium transition-all"
-                        : "text-zinc-600 hover:text-maOrange hover:font-medium dark:text-white transition-all"
+                        : "text-zinc-600 hover:text-maOrange dark:text-white transition-all"
                     }
                   >
                     About
@@ -49,7 +49,7 @@ export const Navbar = () => {
                     className={
                       currentRoute == "/blog"
                         ? "text-maOrange font-medium transition-all"
-                        : "text-zinc-600 hover:text-maOrange hover:font-medium dark:text-white transition-all"
+                        : "text-zinc-600 hover:text-maOrange dark:text-white transition-all"
                     }
                   >
                     Blog 🎨
@@ -65,7 +65,7 @@ export const Navbar = () => {
                     className={
                       currentRoute == "/get-in-touch"
                         ? "text-maOrange font-medium transition-all"
-                        : "text-zinc-600 hover:text-maOrange hover:font-medium dark:text-white transition-all"
+                        : "text-zinc-600 hover:text-maOrange dark:text-white transition-all"
                     }
                   >
                     Get in touch!
@@ -87,7 +87,7 @@ export const Navbar = () => {
             className={
               currentRoute == "/about"
                 ? "text-maOrange font-medium transition-all"
-                : "text-zinc-600 hover:text-maOrange hover:font-medium dark:text-white transition-all"
+                : "text-zinc-600 hover:text-maOrange dark:text-white transition-all"
             }
           >
             About
@@ -98,7 +98,7 @@ export const Navbar = () => {
             className={
               currentRoute == "/blog"
                 ? "text-maOrange font-medium transition-all"
-                : "text-zinc-600 hover:text-maOrange hover:font-medium dark:text-white transition-all"
+                : "text-zinc-600 hover:text-maOrange dark:text-white transition-all"
             }
           >
             Blog 🎨
@@ -109,7 +109,7 @@ export const Navbar = () => {
             className={
               currentRoute == "/get-in-touch"
                 ? "text-maOrange font-medium transition-all"
-                : "text-zinc-600 hover:text-maOrange hover:font-medium dark:text-white transition-all"
+                : "text-zinc-600 hover:text-maOrange dark:text-white transition-all"
             }
           >
             Get in touch!
