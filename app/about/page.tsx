@@ -1,11 +1,9 @@
-import React from "react";
+import { Header } from "./_components/Header";
 
-export default function page() {
+export default function Home() {
   return (
-    <div className="min-h-full flex flex-col">
-      <div className="flex flex-col item-center justify-center text-center text-base flex-1">
-        <p>About Page</p>
-      </div>
-    </div>
+    <main className="w-full flex flex-col px-4 md:px-16 xl:px-96 items-center justify-center">
+      <Header />
+    </main>
   );
 }
