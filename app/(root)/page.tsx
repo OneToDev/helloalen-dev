@@ -4,9 +4,9 @@ import { Footer } from "../_Components/Footer";
 
 export default function Home() {
   return (
-    <main className="w-full flex flex-col px-4 md:px-12 lg:px-96 items-center justify-center">
+    <main className="w-full flex flex-col px-4 md:px-16 xl:px-96 items-center justify-center">
       <Header />
-      {/* <Cards /> */}
+      <Cards />
       {/* <div className="flex gap-3">
         <Link href="/portofolios">
           <p className="px-5 py-3 rounded-full bg-maOrange text-white">

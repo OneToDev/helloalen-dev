@@ -1,8 +1,11 @@
 import React from "react";
+import Image from "next/image";
+import Logo from '@/public/Logo-Character.png'
 
 export const Header = () => {
   return (
     <div className="flex flex-col gap-3 items-center justify-center py-24">
+      <Image src={Logo} alt="Logo" width={240} className="pb-6" />
       <p className="text-base font-medium text-center">
         Hello 👋🏻, I&apos;m Naufal Abdussyakur and you can call me <span className="font-semibold text-maOrange">Alen</span>. I&apos;m
         a

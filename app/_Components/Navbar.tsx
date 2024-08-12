@@ -12,7 +12,7 @@ export const Navbar = () => {
   const currentRoute = usePathname();
 
   return (
-    <div className="flex justify-between bg-transparent px-4 md:px-12 lg:px-96 py-6">
+    <div className="flex justify-between bg-transparent px-4 md:px-16 xl:px-96 py-6">
       <Link href="/">
         <h1 className="flex text-2xl font-bold italic">
           Helloalen<p className="text-maOrange">.dev</p>

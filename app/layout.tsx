@@ -39,7 +39,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${poppins.className} bg-zinc-100 dark:bg-zinc-950`}>
+      <body className={`${poppins.className} bg-zinc-50 dark:bg-zinc-950`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
